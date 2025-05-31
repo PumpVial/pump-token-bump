@@ -18,7 +18,7 @@ const payload = {
 //////////////////////////////// END ////////////////////////////////////////
 
 const bumpToken = async () => {
-  const URL = "https://pumpvial.com/api/pump-token-bump";
+  const URL = "https://api.pumpvial.com/pump-token-bump";
 
   try {
     const request = await axios.post(URL, payload, {
